@@ -153,7 +153,8 @@ img {
     animation: span2animation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    color: #b39e82;;
+    color: #b39e82;
+    ;
 }
 
 .intro-span3 {
@@ -161,7 +162,6 @@ img {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
 
 /* More info section */
 
@@ -171,7 +171,6 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40vh;
     background-color: #585f71;
     line-height: 1.25;
 }
@@ -385,15 +384,12 @@ img {
     text-decoration: none;
     color: white;
     margin-top: 6px;
-
 }
 
-desc{
-
-color: #abaeb9;
-font-size: 13px;
-margin-top: 3px;
-
+desc {
+    color: #abaeb9;
+    font-size: 13px;
+    margin-top: 3px;
 }
 
 /* Javascript section */
@@ -436,13 +432,14 @@ margin-top: 3px;
     }
     .nav {
         justify-content: center;
+        font-size: 11px;
+    }
+    .nav-list a {
+        margin: 7px;
     }
     .welcome-section p {
         font-size: 24px;
         margin: -3px 11px;
-    }
-    .more-info-section {
-        height: 45vh;
     }
     .more-info-section p {
         font-size: 17px;
@@ -454,6 +451,12 @@ margin-top: 3px;
     .p-bold {
         color: white;
         font-size: 23px;
+    }
+    .art-portfolio-section {
+        padding: 60px 2px 12px;
+    }
+    .projects-section, js.js-projects-section {
+        padding: 60px 2px 40px;
     }
     .art-portfolio-section-header {
         margin: 0 auto 0 auto;
@@ -477,17 +480,33 @@ margin-top: 3px;
         margin-bottom: 6rem;
         padding: 20px;
     }
+    .contact-section h1 {
+        font-size: 39px;
+        text-align: center;
+        line-height: 1;
+    }
+    .contact-section p a {
+        font-size: 27px;
+    }
 }
 
 @media (max-width: 1115px) {
     .art-projects-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(196px, 1fr));
         grid-gap: 30px;
         width: 100%;
         max-width: 1280px;
         margin: 0 auto;
-        margin-bottom: 6rem;
         padding: 60px;
+    }
+    .projects-grid {
+        margin: 0 auto 0;
+    }
+}
+
+@media (min-width: 1115px) {
+    .more-info-section p {
+        margin: 100px 38px;
     }
 }
