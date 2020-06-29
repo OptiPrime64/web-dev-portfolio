@@ -480,14 +480,20 @@ desc {
         margin-bottom: 6rem;
         padding: 20px;
     }
+
+    .contact-section p a {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 730px){
+
     .contact-section h1 {
         font-size: 39px;
         text-align: center;
         line-height: 1;
     }
-    .contact-section p a {
-        font-size: 27px;
-    }
+
 }
 
 @media (max-width: 1115px) {
