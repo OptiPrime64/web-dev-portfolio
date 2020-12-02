@@ -347,12 +347,21 @@ img {
     }
 }
 
+/* Angular section */
+
+.ng-projects-section {
+    text-align: center;
+    padding: 60px 2px;
+    background-color: #585f71;
+}
+
 /* HTML5/CSS3 section */
 
 .projects-section {
     text-align: center;
     padding: 60px 2px;
-    background-color: #585f71;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
 .projects-section-header {
@@ -396,14 +405,6 @@ desc {
 /* Javascript section */
 
 .js-projects-section {
-    text-align: center;
-    padding: 60px 2px;
-    background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-}
-/* Angular section */
-
-.ng-projects-section {
     text-align: center;
     padding: 60px 2px;
     background-color: #585f71;
